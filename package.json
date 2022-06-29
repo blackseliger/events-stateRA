@@ -1,0 +1,23 @@
+{
+  "name": "events-statera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackseliger/events-stateRA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackseliger/events-stateRA/issues"
+  },
+  "homepage": "https://github.com/blackseliger/events-stateRA#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "shortid": "^2.2.16"
+  }
+}

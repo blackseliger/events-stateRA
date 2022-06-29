@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.columns-gallery {
+	columns: 300px 3;
+	column-fill: balance;
+	width: 100%;
+	column-gap: 5px;
+	margin: 0 auto;
+}
+
+.columns-gallery__gallery-img {
+	margin: 0 1.5rem 1.5rem 0;
+	border: none;
+	transition: all .25s ease-in-out;
+    width: 100%;
+}
+
+.gallery-img__image {
+	width: 100%;
+	height: 100%;
+	transition: all .25s ease-in-out;
+}
