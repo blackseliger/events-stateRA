@@ -1,0 +1,169 @@
+
+.store {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.store__iconSwitch {
+    position: absolute;
+    left: 90%;
+    top: 0;
+    display: inline;
+    cursor: pointer;
+}
+
+.iconSwitch {
+    color: rgba(194, 26, 124, 2);
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.wrapper {
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.store__cards {
+    display: grid;
+}
+
+
+.card {
+    font-family: 'Inter', sans-serif;
+}
+
+/* list  */
+
+.store__cards_list {
+    grid-template-columns: repeat(3, calc(320px - 10px));
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.store__cards_list > .card_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: whitesmoke;
+    padding-top: 2px;
+}
+
+.store__cards_list > .card_list .card__header {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    color: black;
+    font-family: 'Inter';
+}
+
+.store__cards_list > .card_list .card__picture {
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+.store__cards_list > .card_list .card__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+/* module */
+
+
+.store__cards_module {
+    gap: 5px;
+}
+
+.store__cards_module > .card_module {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 90px;
+    background: whitesmoke;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.store__cards_module > .card_module .card__header {
+    order: 2;
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    font-family: 'Inter'
+}
+
+.store__cards_module > .card_module .card__picture {
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.store__cards_module > .card_module .card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    order: 2;
+    width: 45%;
+}
+
+/* end */
+
+.card__name {
+    font-weight: 600;
+}
+
+.card__description {
+    font-weight: 300;
+}
+
+.card__price {
+    font-size: larger;  
+}
+
+
+.card__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.button {
+    height: 48px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+    padding: 15px 15px 14px;
+
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid;
+    border-color: tomato;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: brown;
+}
+
+
